@@ -1,0 +1,20 @@
+{
+  "name": "foamycastle/alphagen",
+  "description": "alpha-numeric string generator",
+  "authors": [
+    {
+      "name": "Aaron Sollman",
+      "email": "unclepong@gmail.com"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "FoamyCastle\\AlphaGen\\": "src/",
+      "FoamyCastle\\AlphaGen\\Enum\\": "src/Enum/"
+    }
+  }
+}
